@@ -2,28 +2,29 @@
   "packages":[
      {
         "name":"unilod",
-        "maintainer":"ECOCEE",
-        "websiteURL":"https://github.com/cyberkutti-iedc/Unilod",
-        "email":"ecoceeteam@gmail.com",
+        "maintainer":"Unilod",
+        "websiteURL":"http://instagram.com/sreeraj_vr",
+        "email":"cyberkutti@gmail.com",
         "help":{
-           "online":"https://github.com/cyberkutti-iedc/Unilod"
+           "online":"https://github.com/cyberkutti-iedc/"
         },
         "platforms":[
         {
-         "name": "Unilod AVR Boards",
+         "name": "AVR Unilod Boards",
          "architecture": "avr",
          "version": "1.0.0",
-         "category": "Tiny",
+         "category": "tiny",
          "url": "https://github.com/cyberkutti-iedc/Unilod/releases/download/UnilodTiny/unilod_tiny_v1.zip",
          "archiveFileName": "unilod_tiny_v1.zip",
-         "size": "74800",
+         
          "help": {
-           "online": "https://github.com/cyberkutti-iedc/Unilod/issues"
+           "online": "https://github.com/digistump/DigistumpArduino/issues"
          },
          "boards": [
            {
-             "name": "Unilod Tiny 6C8D (Default - 16.5mhz)"
+             "name": "unilod (Default - 16.5mhz)"
            }
+           
          ],
          "toolsDependencies": [
            {
@@ -37,8 +38,287 @@
              "version": "2.0a4"
            }
          ]
-       }
+       },
        
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.0",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/releases/download/1.0.0/core-1.0.0.zip",
+         "archiveFileName": "core-1.0.0.zip",
+         "checksum": "SHA-256:631C214AA1D6CD01794A47D53541433CE5AEE59159627A559E4293F78B3B8E45",
+         "size": "6879430",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.0"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       },
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.1",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/releases/download/1.0.1/core-1.0.1.zip",
+         "archiveFileName": "core-1.0.1.zip",
+         "checksum": "SHA-256:64A3EE39C91AB6BD7BE05685405F7D45A70A2B0E227B4DF930E9D8623B83CF39",
+         "size": "6881865",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.1"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       },
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.2",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/releases/download/1.0.2/core-1.0.2.zip",
+         "archiveFileName": "core-1.0.2.zip",
+         "checksum": "SHA-256:988EEC1A3E4B97A0F31332F4A8FF7AB0E30515EB5DAC22D96DB3B0130213DAF8",
+         "size": "6945915",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.2"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       },
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.3",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/releases/download/1.0.3/core-1.0.3.zip",
+         "archiveFileName": "core-1.0.3.zip",
+         "checksum": "SHA-256:AD14574F6DD9085C0874DCE255038F3C0C9F5417221F960ECD80E17E5AF063BE",
+         "size": "6947972",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.2"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       },
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.4",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/releases/download/1.0.4/core-1.0.4.zip",
+         "archiveFileName": "core-1.0.4.zip",
+         "checksum": "SHA-256:2ABFE8ABB54223032E3B3B852A869D2518AD4BBDC7119942D45B108A04F877EB",
+         "size": "6947979",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.2"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       },
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.5",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/releases/download/1.0.5/core-1.0.5.zip",
+         "archiveFileName": "core-1.0.5.zip",
+         "checksum": "SHA-256:93FC1BFCC56DCCF7B6858DBB81F7B22D5C252B444947F57CCB898C62CE3AE96D",
+         "size": "6947985",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.2"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       },
+       {
+         "name": "Oak by Digistump",
+         "architecture": "oak",
+         "version": "1.0.6",
+         "category": "Unilod",
+         "url": "https://github.com/digistump/OakCore/archive/1.0.6.zip",
+         "archiveFileName": "1.0.6.zip",
+         "checksum": "SHA-256:47071BB74FEEBA7F4BE7623684F3E5AB06F19F7476B00F9C1CFA6ADA45084797",
+         "size": "6861729",
+         "help": {
+           "online": "https://github.com/cyberkutti-iedc"
+         },
+         "boards": [
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+           {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+           {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+         ],
+         "toolsDependencies": [
+           {
+             "packager": "unilod",
+             "name": "oakcli",
+             "version": "1.0.2"
+           },
+           {
+             "packager": "unilod",
+             "name": "esptool2",
+             "version": "0.9.1"
+           },
+           {
+             "packager": "unilod", 
+             "version": "1.20.0-26-gb404fb9-2", 
+             "name": "xtensa-lx106-elf-gcc"
+           }, 
+           {
+             "packager": "unilod", 
+             "version": "0.1.2", 
+             "name": "mkspiffs"
+           }
+         ]
+       }
 
         ],
         "tools":[
