@@ -3,7 +3,7 @@
      {
         "name":"unilod",
         "maintainer":"Unilod",
-        "websiteURL":"http://instagram.com/sreeraj_vr",
+        "websiteURL":"https://iedcsnmimt.vercel.app",
         "email":"cyberkutti@gmail.com",
         "help":{
            "online":"https://github.com/cyberkutti-iedc/"
@@ -18,7 +18,8 @@
          "archiveFileName": "unilod_tiny_v1.zip",
          
          "help": {
-           "online": "https://github.com/digistump/DigistumpArduino/issues"
+          
+           "online": "https://github.com/cyberkutti-iedc/Unilod/issues"
          },
          "boards": [
            {
