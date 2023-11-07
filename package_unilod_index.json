@@ -14,7 +14,7 @@
          "architecture": "avr",
          "version": "1.0.0",
          "category": "Tiny",
-         "url": "https://github.com/cyberkutti-iedc/Unilod/blob/main/Using_USB/avr/unilod_tiny_v1.zip",
+         "url": "https://github.com/cyberkutti-iedc/Unilod/releases/download/UnilodTiny/unilod_tiny_v1.zip",
          "archiveFileName": "unilod_tiny_v1.zip",
          "size": "74800",
          "help": {
